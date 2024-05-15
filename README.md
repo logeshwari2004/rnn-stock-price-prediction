@@ -73,7 +73,7 @@ model.add(layers.SimpleRNN(50,input_shape=(60,1)))
 model.add(layers.Dense(1))
 
 model.compile(optimizer='adam', loss='mse')
-print("Name:Logeshwari.P Register Number: 2122212300")
+print("Name:Logeshwari.P Register Number: 212221230055")
 model.summary()
 
 model.fit(X_train1,y_train,epochs=100, batch_size=32)
